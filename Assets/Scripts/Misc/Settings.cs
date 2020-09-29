@@ -1,6 +1,10 @@
 ﻿using UnityEngine;
 
 public static class Settings {
+    public const float RUNNING_SPEED = 5.33f;
+    public const float WALKING_SPEED = 2.66f;
+
+
     public static int xInput;
     public static int yInput;
     public static int isWalking;
